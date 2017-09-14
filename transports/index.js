@@ -1,5 +1,5 @@
 const nodemailer = require('./nodemailer');
 
-module.exports {
+module.exports = {
   nodemailer
 };

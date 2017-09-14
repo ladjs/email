@@ -1,6 +1,5 @@
 {
   "name": "@ladjs/email",
-  
   "description": "Lad's email handler",
   "version": "0.0.1",
   "author": "Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)",
