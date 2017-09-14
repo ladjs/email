@@ -7,8 +7,21 @@
     "url": "https://github.com/ladjs/email/issues",
     "email": "xo@wvvw.me"
   },
-  "contributors": ["Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)"],
-  "dependencies": {},
+  "contributors": [
+    "Alexis Tyler <xo@wvvw.me> (https://wvvw.me/)"
+  ],
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "html-to-text": "^3.3.0",
+    "juice": "^4.1.1",
+    "lodash": "^4.17.4",
+    "nodemailer": "^4.1.0",
+    "nodemailer-base64-to-s3": "^0.0.2",
+    "nodemailer-html-to-text": "^2.1.0",
+    "opn": "^5.1.0",
+    "underscore.string": "^3.3.4",
+    "uuid": "^3.1.0"
+  },
   "devDependencies": {
     "ava": "^0.22.0",
     "codecov": "^2.3.0",
@@ -28,14 +41,20 @@
     "node": ">=8.3"
   },
   "homepage": "https://github.com/ladjs/email",
-  "keywords": ["@ladjs/email", "lass"],
+  "keywords": [
+    "@ladjs/email",
+    "lass"
+  ],
   "license": "MIT",
   "lint-staged": {
     "*.{js,jsx,mjs,ts,tsx,css,less,scss,json,graphql}": [
       "prettier --write --single-quote --trailing-comma none",
       "git add"
     ],
-    "*.md": ["remark . -qfo", "git add"]
+    "*.md": [
+      "remark . -qfo",
+      "git add"
+    ]
   },
   "main": "index.js",
   "nyc": {
@@ -43,10 +62,16 @@
     "lines": 100,
     "functions": 100,
     "branches": 100,
-    "reporter": ["lcov", "html", "text"]
+    "reporter": [
+      "lcov",
+      "html",
+      "text"
+    ]
   },
   "remarkConfig": {
-    "plugins": ["preset-github"]
+    "plugins": [
+      "preset-github"
+    ]
   },
   "repository": {
     "type": "git",
@@ -61,7 +86,9 @@
   },
   "xo": {
     "extends": "prettier",
-    "plugins": ["prettier"],
+    "plugins": [
+      "prettier"
+    ],
     "parserOptions": {
       "sourceType": "script"
     },
