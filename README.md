@@ -30,12 +30,11 @@ yarn add @ladjs/email
 ## Usage
 
 ```js
-const @ladjs/email = require('@ladjs/email');
+const Email = require('@ladjs/email');
 
-const @ladjs/email = new @ladjs/email();
-
-console.log(@ladjs/email.renderName());
-// script
+const email = new Email({
+  transport: 'nodemailer'
+});
 ```
 
 
